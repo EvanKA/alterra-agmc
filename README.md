@@ -1,1 +1,0 @@
-# alterra-mc-golang-assignment-1
