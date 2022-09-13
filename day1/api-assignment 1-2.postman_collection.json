@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "cd0d4dc6-34f1-4a29-9fb7-0ed73a97b7cf",
+		"name": "assignment 1-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21923610"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testnet.binance.vision/api/v1/klines?api_key=VNb1SgEpIEDY2elTACOLyWQg4BH4uo1nSv9sYvXxgtN11Twx5TO0oJQ2X6NMYnQm&api_secret=zUcYjbGZekp2zr4CKRG8S0Jq6bteTtbhkolUsrkdCSh8k1HxS4uem9RjuzbpNpml&symbol=BTCUSDT&interval=1&limit=1000&timestamp=2022-12-09&signature=alterra",
+					"protocol": "https",
+					"host": [
+						"testnet",
+						"binance",
+						"vision"
+					],
+					"path": [
+						"api",
+						"v1",
+						"klines"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "VNb1SgEpIEDY2elTACOLyWQg4BH4uo1nSv9sYvXxgtN11Twx5TO0oJQ2X6NMYnQm"
+						},
+						{
+							"key": "api_secret",
+							"value": "zUcYjbGZekp2zr4CKRG8S0Jq6bteTtbhkolUsrkdCSh8k1HxS4uem9RjuzbpNpml"
+						},
+						{
+							"key": "symbol",
+							"value": "BTCUSDT"
+						},
+						{
+							"key": "interval",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "1000"
+						},
+						{
+							"key": "timestamp",
+							"value": "2022-12-09"
+						},
+						{
+							"key": "signature",
+							"value": "alterra"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testnet.binance.vision/api/v1/klines?api_key=VNb1SgEpIEDY2elTACOLyWQg4BH4uo1nSv9sYvXxgtN11Twx5TO0oJQ2X6NMYnQm&api_secret=zUcYjbGZekp2zr4CKRG8S0Jq6bteTtbhkolUsrkdCSh8k1HxS4uem9RjuzbpNpml&symbol=BTCUSDT&interval=1&limit=1000&timestamp=2022-12-09&signature=alterra",
+							"protocol": "https",
+							"host": [
+								"testnet",
+								"binance",
+								"vision"
+							],
+							"path": [
+								"api",
+								"v1",
+								"klines"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "VNb1SgEpIEDY2elTACOLyWQg4BH4uo1nSv9sYvXxgtN11Twx5TO0oJQ2X6NMYnQm"
+								},
+								{
+									"key": "api_secret",
+									"value": "zUcYjbGZekp2zr4CKRG8S0Jq6bteTtbhkolUsrkdCSh8k1HxS4uem9RjuzbpNpml"
+								},
+								{
+									"key": "symbol",
+									"value": "BTCUSDT"
+								},
+								{
+									"key": "interval",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "1000"
+								},
+								{
+									"key": "timestamp",
+									"value": "2022-12-09"
+								},
+								{
+									"key": "signature",
+									"value": "alterra"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testnet.binance.vision/api/v1/klines?api_key=VNb1SgEpIEDY2elTACOLyWQg4BH4uo1nSv9sYvXxgtN11Twx5TO0oJQ2X6NMYnQm&api_secret=zUcYjbGZekp2zr4CKRG8S0Jq6bteTtbhkolUsrkdCSh8k1HxS4uem9RjuzbpNpml&symbol=BTCUSDT&interval=1&limit=1000&timestamp=2022-12-09&signature=alterra",
+					"protocol": "https",
+					"host": [
+						"testnet",
+						"binance",
+						"vision"
+					],
+					"path": [
+						"api",
+						"v1",
+						"klines"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "VNb1SgEpIEDY2elTACOLyWQg4BH4uo1nSv9sYvXxgtN11Twx5TO0oJQ2X6NMYnQm"
+						},
+						{
+							"key": "api_secret",
+							"value": "zUcYjbGZekp2zr4CKRG8S0Jq6bteTtbhkolUsrkdCSh8k1HxS4uem9RjuzbpNpml"
+						},
+						{
+							"key": "symbol",
+							"value": "BTCUSDT"
+						},
+						{
+							"key": "interval",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "1000"
+						},
+						{
+							"key": "timestamp",
+							"value": "2022-12-09"
+						},
+						{
+							"key": "signature",
+							"value": "alterra"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://testnet.binance.vision/api/v1/klines?api_key=VNb1SgEpIEDY2elTACOLyWQg4BH4uo1nSv9sYvXxgtN11Twx5TO0oJQ2X6NMYnQm&api_secret=zUcYjbGZekp2zr4CKRG8S0Jq6bteTtbhkolUsrkdCSh8k1HxS4uem9RjuzbpNpml&symbol=BTCUSDT&interval=1&limit=1000&timestamp=2022-12-09&signature=alterra",
+							"protocol": "https",
+							"host": [
+								"testnet",
+								"binance",
+								"vision"
+							],
+							"path": [
+								"api",
+								"v1",
+								"klines"
+							],
+							"query": [
+								{
+									"key": "api_key",
+									"value": "VNb1SgEpIEDY2elTACOLyWQg4BH4uo1nSv9sYvXxgtN11Twx5TO0oJQ2X6NMYnQm"
+								},
+								{
+									"key": "api_secret",
+									"value": "zUcYjbGZekp2zr4CKRG8S0Jq6bteTtbhkolUsrkdCSh8k1HxS4uem9RjuzbpNpml"
+								},
+								{
+									"key": "symbol",
+									"value": "BTCUSDT"
+								},
+								{
+									"key": "interval",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "1000"
+								},
+								{
+									"key": "timestamp",
+									"value": "2022-12-09"
+								},
+								{
+									"key": "signature",
+									"value": "alterra"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
