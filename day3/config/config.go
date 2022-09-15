@@ -1,7 +1,7 @@
 package config
 
 import (
-	"day2/models"
+	"day3/models"
 	"fmt"
 
 	"gorm.io/driver/mysql"

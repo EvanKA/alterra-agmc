@@ -1,8 +1,8 @@
 package database
 
 import (
-	"day2/config"
-	"day2/models"
+	"day3/config"
+	"day3/models"
 )
 
 func GetUsers() (interface{}, error) {

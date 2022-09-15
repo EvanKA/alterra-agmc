@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"net/http"
-	"day2/lib/database"
-	"day2/models"
+	"day3/lib/database"
+	"day3/models"
 
 	"github.com/labstack/echo"
 )
